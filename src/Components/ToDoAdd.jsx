@@ -12,7 +12,7 @@ function ToDoAdd({addTodo}){
     }
 
     return(
-        <div className="w-full">
+        <div className="">
             <div className="">
             <h1>Add To Do</h1>
             <form onSubmit={handleSubmit}>

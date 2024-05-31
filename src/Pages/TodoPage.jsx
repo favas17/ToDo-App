@@ -21,8 +21,8 @@ function TodoPage(){
     }
 
     return(
-        <div className="flex w-full">
-            <h1>
+        <div className=" ">
+            <h1 className="">
                 Todo App
             </h1>
             <div className="">

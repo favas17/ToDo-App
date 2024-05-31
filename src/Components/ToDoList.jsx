@@ -2,7 +2,7 @@
 function ToDoList({todo,removeTodo}){
 
     return(
-        <div className="w-full">
+        <div className="">
             <table>
                 <thead>
                     <tr>
