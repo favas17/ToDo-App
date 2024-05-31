@@ -21,21 +21,19 @@ function TodoPage(){
     }
 
     return(
-        <div className=" ">
-            <h1 className="">
+        <div className="h-screen text-white bg-black">
+            <h1 className="flex justify-center font-bold">
                 Todo App
             </h1>
-            <div className="">
-            <ToDoAdd addTodo={addTodo} />
-            </div>
-            
+        <div className="flex mt-10 justify-evenly">
             <div className="">
             <ToDoList todo={todo} removeTodo={removeTodo}/>
             </div>
-           
-            <div>
-
+            <div className="">
+            <ToDoAdd addTodo={addTodo} />
             </div>
+        </div>
+            
         </div>
     )
 }

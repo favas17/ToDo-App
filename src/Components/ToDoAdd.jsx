@@ -14,10 +14,10 @@ function ToDoAdd({addTodo}){
     return(
         <div className="">
             <div className="">
-            <h1>Add To Do</h1>
+            <h1 className="font-bold">Add To Do</h1>
             <form onSubmit={handleSubmit}>
-                <input onChange={(e)=>setTodods(e.target.value)} type="text" placeholder="Add youre To Do"/>
-                <button type="submit">Add To Do</button>
+                <input className="outline-none bg-gray-300 rounded-sm" onChange={(e)=>setTodods(e.target.value)} type="text" placeholder="Add youre To Do"/>
+                <button className="bg-red-500 rounded-sm" type="submit">Add To Do</button>
             </form>
             </div>
         </div>
